@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+   <h3 style="margin-top: 20px;margin-bottom: 20px;">Lista de amigos</h3> 
+   <div>
+    <span>1</span>
+    <input type="text" placeholder="nome do amigo" id="n1">
+    <br>
+    <span>2</span>
+    <input type="text" placeholder="nome do amigo" id="n2">
+    <br>
+    <span>3</span>
+    <input type="text" placeholder="nome do amigo" id="n3">
+    <br>
+    <span>4</span>
+    <input type="text" placeholder="nome do amigo" id="n4">
+   </div>
+   <button onclick="enviar()" id="envbut">enviar</button>
+   <div id="displayname" style="font-weight:bold ;"></div>
+   <div id="displayNameWithCommas">
+</div>
+<hr>
+<div id="displayNameWithoutCommas">
+</div>
+    <button onclick="organizar()" id="orgbut">organizar</button>
+</body>
+</html>
